@@ -12,6 +12,7 @@
 		8DF63B7E29B5BBEB00A09EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63B7D29B5BBEB00A09EFB /* Assets.xcassets */; };
 		8DF63B8129B5BBEB00A09EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63B8029B5BBEB00A09EFB /* Preview Assets.xcassets */; };
 		8DF63B8D29B5BF6800A09EFB /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */; };
+		8DF63B9029B5CE7700A09EFB /* CardView1IView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B8F29B5CE7700A09EFB /* CardView1IView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8DF63B7D29B5BBEB00A09EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF63B8029B5BBEB00A09EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
+		8DF63B8F29B5CE7700A09EFB /* CardView1IView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1IView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,17 @@
 			children = (
 				8DF63B7B29B5BBE900A09EFB /* HomeView.swift */,
 				8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */,
+				8DF63B8E29B5CE5400A09EFB /* CardViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8DF63B8E29B5CE5400A09EFB /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				8DF63B8F29B5CE7700A09EFB /* CardView1IView.swift */,
+			);
+			path = CardViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF63B7C29B5BBE900A09EFB /* HomeView.swift in Sources */,
+				8DF63B9029B5CE7700A09EFB /* CardView1IView.swift in Sources */,
 				8DF63B8D29B5BF6800A09EFB /* FeaturedView.swift in Sources */,
 				8DF63B7A29B5BBE900A09EFB /* ProjectGT2_1App.swift in Sources */,
 			);
