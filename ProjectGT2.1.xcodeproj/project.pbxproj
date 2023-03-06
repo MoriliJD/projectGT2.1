@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8DF63B7A29B5BBE900A09EFB /* ProjectGT2_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B7929B5BBE900A09EFB /* ProjectGT2_1App.swift */; };
-		8DF63B7C29B5BBE900A09EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B7B29B5BBE900A09EFB /* ContentView.swift */; };
+		8DF63B7C29B5BBE900A09EFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B7B29B5BBE900A09EFB /* HomeView.swift */; };
 		8DF63B7E29B5BBEB00A09EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63B7D29B5BBEB00A09EFB /* Assets.xcassets */; };
 		8DF63B8129B5BBEB00A09EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63B8029B5BBEB00A09EFB /* Preview Assets.xcassets */; };
+		8DF63B8D29B5BF6800A09EFB /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DF63B7629B5BBE900A09EFB /* ProjectGT2.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectGT2.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF63B7929B5BBE900A09EFB /* ProjectGT2_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGT2_1App.swift; sourceTree = "<group>"; };
-		8DF63B7B29B5BBE900A09EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DF63B7B29B5BBE900A09EFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8DF63B7D29B5BBEB00A09EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF63B8029B5BBEB00A09EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				8DF63B7929B5BBE900A09EFB /* ProjectGT2_1App.swift */,
-				8DF63B7B29B5BBE900A09EFB /* ContentView.swift */,
+				8DF63B8B29B5BC7F00A09EFB /* Views */,
+				8DF63B8A29B5BC7400A09EFB /* Models */,
+				8DF63B8929B5BC6600A09EFB /* ViewModels */,
+				8DF63B8829B5BC5700A09EFB /* helpers */,
+				8DF63B8729B5BC4600A09EFB /* resources */,
 				8DF63B7D29B5BBEB00A09EFB /* Assets.xcassets */,
 				8DF63B7F29B5BBEB00A09EFB /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				8DF63B8029B5BBEB00A09EFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DF63B8729B5BC4600A09EFB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		8DF63B8829B5BC5700A09EFB /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		8DF63B8929B5BC6600A09EFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8DF63B8A29B5BC7400A09EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DF63B8B29B5BC7F00A09EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DF63B7B29B5BBE900A09EFB /* HomeView.swift */,
+				8DF63B8C29B5BF6800A09EFB /* FeaturedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF63B7C29B5BBE900A09EFB /* ContentView.swift in Sources */,
+				8DF63B7C29B5BBE900A09EFB /* HomeView.swift in Sources */,
+				8DF63B8D29B5BF6800A09EFB /* FeaturedView.swift in Sources */,
 				8DF63B7A29B5BBE900A09EFB /* ProjectGT2_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
