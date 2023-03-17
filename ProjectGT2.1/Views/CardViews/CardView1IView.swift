@@ -18,6 +18,18 @@ struct CardView1IView: View {
                     .cornerRadius(10)
                     .scaledToFill()
                 Text("descriptions")
+                Image("IMG2")
+                    .resizable()
+                    .frame(width: 350,height: 350)
+                    .shadow(radius: 10)
+                    .cornerRadius(10)
+                    .scaledToFill()
+                Image("IMG2")
+                    .resizable()
+                    .frame(width: 350,height: 350)
+                    .shadow(radius: 10)
+                    .cornerRadius(10)
+                    .scaledToFill()
             }
         }
         .navigationTitle("Giftedness")

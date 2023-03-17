@@ -102,13 +102,14 @@ struct FeaturedView: View {
                 .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
             
             //MARK: subtitle
+            Spacer()
             HStack{
                 Text("descrpitions :")
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.leading)
                 Rectangle()
-                    .frame(width: 200,height: 20)
+                    .frame(width: 200,height: 0)
                     .foregroundColor(.white)
             }
             //MARK: descriptions
@@ -124,6 +125,7 @@ struct FeaturedView: View {
                 }
                 
             }
+            Spacer()
         }
         
     }
